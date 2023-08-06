@@ -1,0 +1,19 @@
+name: torch
+channels:
+  - conda-forge
+dependencies:
+  - python==3.10
+  - pip
+  - pip:
+    - ipython==7.33.0
+    - jupyter==1.0.0
+    - kaggle==1.5.15
+    - tqdm==4.64.1
+    - torch==1.13.1
+    - torchvision==0.14.1
+    - pandas==1.5.3
+    - scikit-learn==1.0.2
+    - openpyxl==3.0.9
+    - opencv-python==4.7.0.68
+    - numpy==1.24.2
+    - matplotlib==3.6.3
